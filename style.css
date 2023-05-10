@@ -12,24 +12,24 @@ h1 {
 }
 
 h2 {
-    font-size: 46px;
+    font-size: 60px;
     line-height: 54px;
-    color: #222;
+    color: #f8f400;
 }
 
 h4 {
     font-size: 20px;
-    color: #222;
+    color: #ffff00;
 }
 
 h6 {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 12px;
 }
 
 p {
-    font-size: 50px;
-    color: #222;
+    font-size: 60px;
+    color: hwb(60 0% 1%);
     margin: 15px 0 20px 0;
 }
 
@@ -69,6 +69,10 @@ button.white {
 
 body {
     width: 100%;
+    background-image: url("img/back.png");
+    background-size: 100%;
+    height: 100%;
+    background-color: #ebe7ff;
 }
 
 #header {
@@ -131,7 +135,7 @@ a {
     content: "";
     width: 30%;
     height: 2px;
-    background: #088178;
+    background: #054a45;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -149,8 +153,8 @@ a {
     background-image: url("img/hero.png");
     height: 90vh;
     width: 100%;
-    background-size: cover;
-    background-position: top 40% right 0;
+    background-size: 100%;
+    background-position: top 40% right ;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -163,7 +167,7 @@ a {
 }
 
 #hero h1 {
-    color: #088178;
+    color: #9ffcff;
 }
 
 #hero p {
@@ -194,9 +198,10 @@ a {
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba( 0, 0, 0, 0.03);
-    border: 1px solid #cce7d0;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     margin: 15px 0;
+
 }
 
 #feature .fe-box:hover {
@@ -209,7 +214,9 @@ a {
     margin-bottom: 10px;
     border-radius: 50%;
 }
-
+#feature .fe-box{
+    background-color: rgb(121, 73, 167);
+}
 #feature .fe-box h6 {
     display: inline-block;
     padding: 9px 8px 6px 8px;
@@ -261,6 +268,7 @@ a {
     margin: 15px 0;
     transition: 0.2s ease;
     position: relative;
+    background-color: #d0e8e6;
 }
 
 #product1 .pro:hover {
@@ -424,7 +432,7 @@ a {
 }
 
 #banner3 h2 {
-    color: #fff;
+    color: #ff0000;
     font-weight: 900;
     font-size: 22px;
 }
@@ -491,6 +499,7 @@ a {
 }
 
 footer {
+    background-color: #606063;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -523,7 +532,7 @@ footer p {
 footer a {
     font-size: 13px;
     text-decoration: none;
-    color: #222;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -532,7 +541,7 @@ footer .follow {
 }
 
 footer .follow i {
-    color: #465b52;
+    color: #ffffff;
     padding-right: 4px;
     cursor: pointer;
 }
