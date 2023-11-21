@@ -150,10 +150,11 @@ a {
 
 #hero {
     background-image: url("img/hero.png");
-    height: 90vh;
-    width: 100%;
-    background-size: 100%;
-    background-position: top 40% right ;
+    height: 70vh;
+    width: 120%;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: top 20% left ;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -352,7 +353,7 @@ a {
 
 #sm-banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -362,7 +363,7 @@ a {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b17.jpg");
-    min-width: 520px;
+    width: 50%;
     height: 50vh;
     background-size: cover;
     background-position: center;
