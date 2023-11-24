@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -80,7 +81,7 @@ body {
     justify-content: space-between;
     padding: 20px 80px;
     background: #d7dae8;
-    box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     z-index: 999;
     position: sticky;
     top: 0;
@@ -139,6 +140,7 @@ a {
     bottom: -4px;
     left: 20px;
 }
+
 #mobile {
     display: none;
     align-items: center;
@@ -147,13 +149,14 @@ a {
 #close {
     display: none;
 }
+
 #hero {
     background-image: url("img/hero.png");
     height: 70vh;
     width: 120%;
     background-size: 85%;
     background-repeat: no-repeat;
-    background-position: top 20% left ;
+    background-position: top 20% left;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -196,15 +199,14 @@ a {
     width: 180px;
     text-align: center;
     padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgba( 0, 0, 0, 0.03);
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid #ffffff;
     border-radius: 50%;
     margin: 15px 0;
-
 }
 
 #feature .fe-box:hover {
-    box-shadow: 10px 10px 54px rgba( 70, 62, 221, 0.1);
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
 
 #feature .fe-box img {
@@ -213,9 +215,11 @@ a {
     margin-bottom: 10px;
     border-radius: 50%;
 }
-#feature .fe-box{
+
+#feature .fe-box {
     background-color: rgb(124, 160, 203);
 }
+
 #feature .fe-box h6 {
     display: inline-block;
     padding: 9px 8px 6px 8px;
@@ -272,8 +276,11 @@ a {
 
 #product1 .pro img {
     width: 100%;
+    height: 310px; /* Adjust the height as per your preference */
     border-radius: 20px;
 }
+
+
 
 #product1 .pro .des {
     text-align: start;
@@ -316,6 +323,7 @@ a {
     bottom: 20px;
     right: 10px;
 }
+
 
 #banner {
     display: flex;
@@ -559,8 +567,9 @@ footer .copyright {
     width: 100%;
     text-align: center;
 }
-/*shop page*/
-#page-header{
+
+/* Shop page */
+#page-header {
     background-image: url("img/banner/b1.jpg");
     width: 100%;
     height: 40vh;
@@ -571,6 +580,7 @@ footer .copyright {
     flex-direction: column;
     padding: 14px;
 }
+
 #page-header h2,
 #page-header p {
     color: #080707;
@@ -650,150 +660,359 @@ footer .copyright {
 
 #prodetails .single-pro-details span{
     line-height: 25px;
-}
-@media (max-width:799px) {
-    .section-p1 {
-        padding: 40px 40px;
     }
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;
-        background-color: #E3E6F3;
-        box-shadow: 0 40px 60px rgba( 0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
-        transition: 0.3s;
-    }
-    #navbar.active{
-        right: 0px;
-    }
-    #navbar li{
-        margin-bottom: 25px;
-    }
-    #mobile {
-        display: flex;
-        align-items: center;
-    }
-    #mobile i{
-        color: #1a1a1a;
-        font-size: 24px;
-        padding-left: 20px;
-    }
-    #close {
-        display: initial;
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        color: #222;
-        font-size: 24px;
-    }
-    #lg-bag{
-        display: none;
-    }
-
-    #hero {
-        height: 70vh;
-        padding: 0 80px;
-        background-position: top 30% right 30%;
-    }
-
-    #feature {
-        justify-content: center;
-    }
-    #feature .fe-box {
-        margin: 15px 15px;
-    }
-    #product1 .pro-container {
-        justify-content: center;
-    }
-    #product1 .pro {
-        margin: 15px;
-    }
-    #banner {
-        height: 20vh;
-    }
-    #sm-banner .banner-box {
-        min-width: 100%;
-        height: 30vh;
-    }
-    #banner3 {
-        padding: 0 40px;
-    }
-    #banner3 .banner-box {
-        width: 28%;
-    }
-    #newsletter .form {
-        width: 70%;
-    }
-
-    @media (max-width: 477px) {
+    
+    @media screen and (max-width: 1024px) {
+        /* Adjust styles for tablets and smaller desktop screens */
+        h1 {
+            font-size: 40px;
+            line-height: 54px;
+        }
+    
+        h2 {
+            font-size: 50px;
+            line-height: 44px;
+        }
+    
+        h4 {
+            font-size: 18px;
+        }
+    
+        h6 {
+            font-size: 10px;
+        }
+    
+        p {
+            font-size: 50px;
+            margin: 10px 0 15px 0;
+        }
+    
         .section-p1 {
             padding: 20px;
         }
+    
         #header {
-            padding: 10px 30px;
+            padding: 10px 20px;
         }
-        h1 {
-            font-size: 38px;
+    
+        #navbar {
+            flex-direction: column;
+            align-items: flex-start;
         }
-        h2 {
-            font-size: 32px;
+    
+        #navbar li {
+            margin: 10px 0;
         }
+    
         #hero {
             padding: 0 20px;
-            background-position: 55%;
+            height: 60vh;
+            background-size: 100%;
+            background-position: top center;
         }
-        #feature {
-            justify-content: space-between;
+    
+        #hero h1 {
+            font-size: 40px;
+            line-height: 50px;
         }
+    
+        #hero button {
+            padding: 10px 50px 10px 35px;
+            font-size: 24px;
+        }
+    
         #feature .fe-box {
-            width: 155px;
-            margin: 0 0 15px 0;
+            width: 150px;
+            padding: 20px 10px;
         }
+    
+        #feature .fe-box img {
+            height: 60px;
+        }
+    
+        #feature .fe-box h6 {
+            font-size: 10px;
+            padding: 7px 6px 5px 6px;
+        }
+    
         #product1 .pro {
-            width: 100%;
+            min-width: 200px;
         }
-        #banner {
-            height: 40vh;
+    
+        #product1 .pro img {
+            height: 150px;
         }
+    
+        #product1 .pro .des h5 {
+            font-size: 12px;
+        }
+    
+        #product1 .pro .des i {
+            font-size: 10px;
+        }
+    
+        #product1 .pro .des h4 {
+            font-size: 12px;
+        }
+    
+        #banner h4 {
+            font-size: 14px;
+        }
+    
+        #banner h2 {
+            font-size: 24px;
+            padding: 5px 0;
+        }
+    
         #sm-banner .banner-box {
-            height: 40vh;
+            width: 100%;
+            height: 30vh;
         }
-        #sm-banner .banner-box2 {
-            margin-top: 20px;
+    
+        #sm-banner h2 {
+            font-size: 22px;
         }
-        #banner3 {
-            padding: 0 20px;
+    
+        #sm-banner span {
+            font-size: 12px;
+            padding-bottom: 10px;
         }
+    
         #banner3 .banner-box {
             width: 100%;
+            height: 20vh;
         }
+    
+        #banner3 h2 {
+            font-size: 18px;
+        }
+    
         #newsletter {
-            padding: 40px 20px;
+            background-position: center;
         }
+    
+        #newsletter h4 {
+            font-size: 20px;
+        }
+    
+        #newsletter p {
+            font-size: 12px;
+        }
+    
         #newsletter .form {
-            width: 100%;
+            width: 60%;
         }
-        footer .copyright {
-            text-align: start;
+    
+        #newsletter input {
+            height: 2.5rem;
         }
-        /* Single Product */
-        #prodetails {
-            display: flex;
-            flex-direction: column;
+    
+        #newsletter button {
+            width: 30%;
         }
-        #prodetails .single-pro-image {
-            width: 100%;
-            margin-right: 0px;
+    
+        footer .logo {
+            height: 30%;
+            width: 30%;
         }
-        #prodetails .single-pro-details {
-            width: 100%;
+    
+        footer h4 {
+            font-size: 12px;
+            padding-bottom: 15px;
+        }
+    
+        footer p {
+            font-size: 11px;
+        }
+    
+        footer a {
+            font-size: 11px;
+            margin-bottom: 8px;
+        }
+    
+        footer .follow i {
+            padding-right: 2px;
+        }
+    
+        #page-header h2,
+        #page-header p {
+            font-size: 18px;
         }
     }
-}
+    
+    @media screen and (max-width: 768px) {
+        /* Adjust styles for mobile devices */
+        h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    
+        h2 {
+            font-size: 40px;
+            line-height: 34px;
+        }
+    
+        h4 {
+            font-size: 16px;
+        }
+    
+        h6 {
+            font-size: 8px;
+        }
+    
+        p {
+            font-size: 40px;
+            margin: 5px 0 10px 0;
+        }
+    
+        .section-p1 {
+            padding: 10px 20px;
+        }
+    
+        #header {
+            padding: 10px;
+        }
+    
+        #navbar {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #navbar li {
+            margin: 5px 0;
+        }
+    
+        #hero {
+            padding: 0 10px;
+            height: 50vh;
+            background-size: 100%;
+            background-position: top center;
+        }
+    
+        #hero h1 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+    
+        #hero button {
+            padding: 7px 40px 7px 28px;
+            font-size: 18px;
+        }
+    
+        #feature .fe-box {
+            width: 120px;
+            padding: 15px 8px;
+        }
+    
+        #feature .fe-box img {
+            height: 50px;
+        }
+    
+        #feature .fe-box h6 {
+            font-size: 8px;
+            padding: 5px 4px 4px 4px;
+        }
+    
+        #product1 .pro {
+            min-width: 150px;
+        }
+    
+        #product1 .pro img {
+            height: 100px;
+        }
+    
+        #product1 .pro .des h5 {
+            font-size: 10px;
+        }
+    
+        #product1 .pro .des i {
+            font-size: 8px;
+        }
+    
+        #product1 .pro .des h4 {
+            font-size: 10px;
+        }
+    
+        #banner h4 {
+            font-size: 12px;
+        }
+    
+        #banner h2 {
+            font-size: 20px;
+            padding: 3px 0;
+        }
+    
+        #sm-banner .banner-box {
+            width: 100%;
+            height: 25vh;
+        }
+    
+        #sm-banner h2 {
+            font-size: 18px;
+        }
+    
+        #sm-banner span {
+            font-size: 10px;
+            padding-bottom: 8px;
+        }
+    
+        #banner3 .banner-box {
+            width: 100%;
+            height: 18vh;
+        }
+    
+        #banner3 h2 {
+            font-size: 16px;
+        }
+    
+        #newsletter h4 {
+            font-size: 18px;
+        }
+    
+        #newsletter p {
+            font-size: 10px;
+        }
+    
+        #newsletter .form {
+            width: 70%;
+        }
+    
+        #newsletter input {
+            height: 2rem;
+        }
+    
+        #newsletter button {
+            width: 25%;
+        }
+    
+        footer .logo {
+            height: 25%;
+            width: 25%;
+        }
+    
+        footer h4 {
+            font-size: 10px;
+            padding-bottom: 12px;
+        }
+    
+        footer p {
+           
+    
+     font-size: 9px;
+        }
+    
+        footer a {
+            font-size: 9px;
+            margin-bottom: 6px;
+        }
+    
+        footer .follow i {
+            padding-right: 1px;
+        }
+    
+        #page-header h2,
+        #page-header p {
+            font-size: 14px;
+        }
+    }
+    
